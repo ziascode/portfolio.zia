@@ -7,7 +7,7 @@ function About() {
         <div className='grid grid-cols-1 md:grid-cols-2 pb-10'>
             <div className='px-6 md:pr-10 md:pb-10'>
                 <p>I'm a front-end web developer with an eye for design. I specialize in creating lightning fast responsive web applications and websites with fluid UX/UI built to perform on all devices.</p> 
-                <br /><p>Currently I'm exploring the world of VR developement and building user experiences in 3D virtual environments using Unity, Three.Js, and React. Shoot me an email if you'd like to work with me or get to know more about what I offer.</p>
+                <br /><p>Currently I'm exploring the world of VR developement and building user experiences in 3D virtual environments using Unity, Three.js, and React360. Shoot me an email if you'd like to work with me or get to know more about what I offer.</p>
                 <div className='mt-8 space-x-1'>
                 <a href="mailto:ZIAYOUSAF94@GMAIL.COM"><button className='border rounded-lg w-28 py-1 border-teal-700 border-1 hover:border-teal-300 bg-indigo-600 bg-opacity-5'>Email</button></a>
                     <a href="https://www.linkedin.com/in/zia-y/" target="_blank"><button className='border rounded-lg w-28 py-1 border-teal-700 border-1 hover:border-teal-300 bg-indigo-600 bg-opacity-5'>LinkedIn</button></a>

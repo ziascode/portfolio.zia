@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import { MenuAlt3Icon } from '@heroicons/react/solid'
-import Navbar from './Navbar';
 import '../style.css';
 import { gsap } from "gsap";
-import { PixiPlugin } from "gsap/PixiPlugin.js";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin.js";
 
 
