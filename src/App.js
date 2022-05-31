@@ -13,12 +13,12 @@ import React, {useState} from 'react';
 function App() {
   const [alist, setList] = useState([
         {
-          img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1642713460/metas/portfolio/nooby-dooby-asset_pql7bj.jpg", 
-          title:"Mauthoor",
-          stack:"JavaScript | HTML | CSS | Figma",
-          description:"Mauthoor Ltd is a talent-agency run by Mohammed Mauthoor. His clientele grew and he decided he needed a more professional way to present his services, so he contacted me for the job. I designed wireframes, put together a simple spec sheet, and began the design process. I developed the selected wireframe into a fully responsive one-page website with a clean modern look using pure Css. It features several standard sections including about, contact, portfolio and others as well as customized animations (using JavaScript to achieve desired effects).",
-          site:"https://mauthoor.com/",
-          img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643163892/metas/m3_v5m5cg.jpg",
+          img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1654028614/metas/portfolio/mo_358_iieuiz.jpg", 
+          title:"Paghman Kabob",
+          stack:"React | JavaScript | Wordpress | Custom CSS & HTML | Vercel",
+          description:"Paghman Kabob is a family owned restaurant operating in Geulph.  I was commissioned to develop and execute a digital strategy to improve their online sales. As part of this strategy, I developed a modern responsive website geared to drive users to increase traffic, customer engagement, conversions and improve search engine optimization.",
+          site:"https://paghmankabob.com/",
+          img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1654026623/metas/portfolio/paghmon_kfkcbp.jpg",
           img2:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643161782/metas/m2_z2iacw.jpg",
           img3:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643163892/metas/m3_v5m5cg.jpg",
           img4:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643162935/metas/m4_qj6xzg.jpg"
@@ -41,6 +41,18 @@ function App() {
           site:"https://alrihlatourism.com/",
           img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643174017/metas/portfolio/r1_ys3gxl.jpg"
         },  
+        {
+          img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1642713461/metas/portfolio/m2_toqaso.jpg", 
+          title:"Mauthoor",
+          stack:"JavaScript | HTML | CSS | Figma",
+          description:"Mauthoor Ltd is a talent-agency run by Mohammed Mauthoor. His clientele grew and he decided he needed a more professional way to present his services, so he contacted me for the job. I designed wireframes, put together a simple spec sheet, and began the design process. I developed the selected wireframe into a fully responsive one-page website with a clean modern look. It features several standard sections including about, contact, portfolio and others as well as customized animations using JavaScript to achieve desired effects.",
+          site:"https://mauthoor.com/",
+          img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643163892/metas/m3_v5m5cg.jpg",
+          img2:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643161782/metas/m2_z2iacw.jpg",
+          img3:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643163892/metas/m3_v5m5cg.jpg",
+          img4:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643162935/metas/m4_qj6xzg.jpg"
+          
+        },
         {
           img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1642713460/metas/portfolio/krypton3_bgcpcr.jpg",
           title:"Kyrpton",
@@ -82,13 +94,13 @@ function App() {
           img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643833959/metas/portfolio/w1_vbatce.jpg"
         },
         
-        {
-          img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1642805041/metas/portfolio/speech_vzcyfk.jpg",
-          title:"Speech To Text",
-          stack:"JavaScript, HTML, CSS, Figma",
-          description:"N/A",
-          img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643833555/metas/portfolio/s1_qsgfod.jpg"
-        },
+        // {
+        //   img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1642805041/metas/portfolio/speech_vzcyfk.jpg",
+        //   title:"Speech To Text",
+        //   stack:"JavaScript, HTML, CSS, Figma",
+        //   description:"N/A",
+        //   img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643833555/metas/portfolio/s1_qsgfod.jpg"
+        // },
         
     ]);
 

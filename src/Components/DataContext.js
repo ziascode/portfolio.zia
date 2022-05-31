@@ -5,6 +5,18 @@ export const DataContext = createContext();
 export const ProjectProvider = props => {
     const [alist, setList] = useState([
         {
+          img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1654026623/metas/portfolio/paghmon_kfkcbp.jpg", 
+          title:"Paghman Kabob",
+          stack:"React | JavaScript | Wordpress | Custom CSS & HTML | Vercel",
+          description:"Paghman Kabob is a family owned restaurant operating in Geulph.  I was commissioned to develop and execute a digital strategy to improve their online sales. As part of this strategy, I developed a modern responsive website geared to drive users to increase traffic, customer engagement, conversions and improve search engine optimization.",
+          site:"https://mauthoor.com/",
+          img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643163892/metas/m3_v5m5cg.jpg",
+          img2:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643161782/metas/m2_z2iacw.jpg",
+          img3:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643163892/metas/m3_v5m5cg.jpg",
+          img4:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643162935/metas/m4_qj6xzg.jpg"
+          
+        },
+        {
           img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1642713460/metas/portfolio/nooby-dooby-asset_pql7bj.jpg", 
           title:"Mauthoor",
           stack:"JavaScript | HTML | CSS | Figma",
@@ -16,15 +28,7 @@ export const ProjectProvider = props => {
           img4:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643162935/metas/m4_qj6xzg.jpg"
           
         },
-        {
-          img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1642713725/metas/portfolio/net2_qpuyqs.jpg",
-          title:"Netflix Clone",
-          stack:"React | Html | CSS | Rest Api | Netlify ",
-          description:"I recreated the front end of Netflix to showcase both my design skills and competency with React. This React/Redux app uses a REST API to gather information from the TMBD API in order to create a fully functional clone of the Netflix website, except instead of Netflix, it is all YouTube videos. The app updates to ensure all the latest movies and shows are displayed on the front page. I hope that you enjoy browsing it as much as I did making it!",
-          site:"https://ecstatic-swanson-b8ff54.netlify.app/",
-          img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643169882/metas/portfolio/n1_zw4odb.jpg"
-          
-        },
+        
         {
           img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1642805023/metas/portfolio/rihla_mujqog.jpg",
           title:"Al Rihla Tourism",
