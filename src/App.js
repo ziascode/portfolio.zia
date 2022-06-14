@@ -12,18 +12,7 @@ import React, {useState} from 'react';
 
 function App() {
   const [alist, setList] = useState([
-        {
-          img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1654028614/metas/portfolio/mo_358_iieuiz.jpg", 
-          title:"Paghman Kabob",
-          stack:"React | JavaScript | Wordpress | Custom CSS & HTML | Vercel",
-          description:"Paghman Kabob is a family owned restaurant operating in Geulph.  I was commissioned to develop and execute a digital strategy to improve their online sales. As part of this strategy, I developed a modern responsive website geared to drive users to increase traffic, customer engagement, conversions and improve search engine optimization.",
-          site:"https://paghmankabob.com/",
-          img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1654026623/metas/portfolio/paghmon_kfkcbp.jpg",
-          img2:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643161782/metas/m2_z2iacw.jpg",
-          img3:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643163892/metas/m3_v5m5cg.jpg",
-          img4:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643162935/metas/m4_qj6xzg.jpg"
-          
-        },
+        
         {
           img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1642713725/metas/portfolio/net2_qpuyqs.jpg",
           title:"Netflix Clone",
@@ -33,14 +22,25 @@ function App() {
           img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643169882/metas/portfolio/n1_zw4odb.jpg"
           
         },
+        
         {
-          img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1642805023/metas/portfolio/rihla_mujqog.jpg",
-          title:"Al Rihla Tourism",
-          stack:"JavaScript, HTML, CSS, Figma",
-          description:"I was approached by Al Rihla Tourism, a tourism agency, to create a website that would enable their customers to search for packages, prices, destinations and book directly online. A complete booking and payment module where necessary, was also key. The site was designed using Figma and built with Wordpress. The result is a functional, responsive and visually appealing tourist portal.",
-          site:"https://alrihlatourism.com/",
-          img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643174017/metas/portfolio/r1_ys3gxl.jpg"
+          img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1655079946/metas/portfolio/gsap1_fxk9ec.svg",
+          title:"Web Animation - GSAP",
+          stack:"GSAP, JavaScript, HTML, CSS",
+          description:"An ad banner web animation I built using GSAP. GSAP is a JavaScript animation library from lets you create high-performance animations that work in every major browser.",
+          site:"https://gsap-banner-kumgvyvf0-ziascode.vercel.app/",
+          img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1655080192/metas/portfolio/gsap2_i3urca.jpg"
+        },
+        {
+          img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1655093987/metas/portfolio/vue_u4skwf.jpg",
+          title:"Vue Movies",
+          stack:"React | Html | CSS | Rest Api | Netlify ",
+          description:"A movie app built with Vue.js utilizing the TMBD open source movie API. The app performs the following functions: display popular movies, search movies by title, and display movies by category.",
+          site:"https://wondrous-pastelito-107c2b.netlify.app/",
+          img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643169882/metas/portfolio/n1_zw4odb.jpg"
+          
         },  
+        
         {
           img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1642713461/metas/portfolio/m2_toqaso.jpg", 
           title:"Mauthoor",
@@ -54,6 +54,18 @@ function App() {
           
         },
         {
+          img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1654028614/metas/portfolio/mo_358_iieuiz.jpg", 
+          title:"Paghman Kabob",
+          stack:"React | JavaScript | Wordpress | Custom CSS & HTML | Vercel",
+          description:"Paghman Kabob is a family owned restaurant operating in Geulph.  I was commissioned to develop and execute a digital strategy to improve their online sales. As part of this strategy, I developed a modern responsive website geared to drive users to increase traffic, customer engagement, conversions and improve search engine optimization.",
+          site:"https://paghmankabob.com/",
+          img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1654026623/metas/portfolio/paghmon_kfkcbp.jpg",
+          img2:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643161782/metas/m2_z2iacw.jpg",
+          img3:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643163892/metas/m3_v5m5cg.jpg",
+          img4:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643162935/metas/m4_qj6xzg.jpg"
+          
+        },
+        {
           img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1642713460/metas/portfolio/krypton3_bgcpcr.jpg",
           title:"Kyrpton",
           stack:"JavaScript, HTML, CSS, Rest API, Figma",
@@ -61,6 +73,14 @@ function App() {
           site:"https://atlasvirtual.ca/krypton/krypto.html",
           img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643832923/metas/k1_swdtrh.jpg"
         },
+        {
+          img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1642805023/metas/portfolio/rihla_mujqog.jpg",
+          title:"Al Rihla Tourism",
+          stack:"JavaScript, HTML, CSS, Figma",
+          description:"I was approached by Al Rihla Tourism, a tourism agency, to create a website that would enable their customers to search for packages, prices, destinations and book directly online. A complete booking and payment module where necessary, was also key. The site was designed using Figma and built with Wordpress. The result is a functional, responsive and visually appealing tourist portal.",
+          site:"https://alrihlatourism.com/",
+          img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643174017/metas/portfolio/r1_ys3gxl.jpg"
+        },  
         {
           img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1642713460/metas/portfolio/lux_tfijgl.jpg",
           title:"Tesla Clone",
