@@ -26,7 +26,7 @@ function App() {
         {
           img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1655079946/metas/portfolio/gsap1_fxk9ec.svg",
           title:"Web Animation - GSAP",
-          stack:"GSAP, JavaScript, HTML, CSS",
+          stack:"GSAP | JavaScript | HTML | CSS",
           description:"An ad banner web animation I built using GSAP. GSAP is a JavaScript animation library from lets you create high-performance animations that work in every major browser.",
           site:"https://gsap-banner-kumgvyvf0-ziascode.vercel.app/",
           img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1655080192/metas/portfolio/gsap2_i3urca.jpg"
@@ -37,7 +37,7 @@ function App() {
           stack:"React | Html | CSS | Rest Api | Netlify ",
           description:"A movie app built with Vue.js utilizing the TMBD open source movie API. The app performs the following functions: display popular movies, search movies by title, and display movies by category.",
           site:"https://wondrous-pastelito-107c2b.netlify.app/",
-          img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643169882/metas/portfolio/n1_zw4odb.jpg"
+          img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1655226720/metas/portfolio/vue2_artehq.jpg"
           
         },  
         
@@ -74,6 +74,14 @@ function App() {
           img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643832923/metas/k1_swdtrh.jpg"
         },
         {
+          img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1655322491/metas/portfolio/port4_f40kmc.jpg", 
+          title:"Personal Portfolio",
+          stack:"React | JavaScript | Tailwind.css | Netlify",
+          description:"Current portfolio built with React.js and Tailwind Css, and Javascript for the soundscape player at the bottom.",
+          site:"#",
+          img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1655322664/metas/portfolio/port5_rhpbay.jpg",          
+        },
+        {
           img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1642805023/metas/portfolio/rihla_mujqog.jpg",
           title:"Al Rihla Tourism",
           stack:"JavaScript, HTML, CSS, Figma",
@@ -98,6 +106,14 @@ function App() {
           img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643172709/metas/portfolio/ta2_ofxull.jpg"
         },
         {
+          img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1654028240/metas/portfolio/mo_448_kxvc2j.jpg",
+          title:"Custom Menu",
+          stack:"React | HTML | CSS | Vercel",
+          description:"A custom menu I created for a client. The app was built using React. Functions include: selecting food items based on category, smooth transition web animation, drop down menue. Deployed using Vercel.",
+          site:"https://update-menu.vercel.app/",
+          img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1655228810/metas/portfolio/menu2_c9i8sb.jpg"
+        },
+        {
           img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1642720391/metas/portfolio/ar_lkng1g.jpg",
           title:"Augmented Reality App",
           stack:"JavaScript, HTML, CSS, Figma",
@@ -106,13 +122,13 @@ function App() {
           img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643172948/metas/portfolio/a1_tf1d2k.jpg"
         },
   
-        {
-          img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1642805031/metas/portfolio/w2_ql8krf.jpg",
-          title:"Weather API",
-          stack:"JavaScript, HTML, CSS, Figma",
-          description:"N/A",
-          img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643833959/metas/portfolio/w1_vbatce.jpg"
-        },
+        // {
+        //   img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1642805031/metas/portfolio/w2_ql8krf.jpg",
+        //   title:"Weather API",
+        //   stack:"JavaScript, HTML, CSS, Figma",
+        //   description:"N/A",
+        //   img1:"https://res.cloudinary.com/dvhcociyf/image/upload/v1643833959/metas/portfolio/w1_vbatce.jpg"
+        // },
         
         // {
         //   img:"https://res.cloudinary.com/dvhcociyf/image/upload/v1642805041/metas/portfolio/speech_vzcyfk.jpg",

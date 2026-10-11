@@ -46,6 +46,18 @@ function About() {
                 <div className="flex items-center m-2 mt-5 space-x-0 rounded-xl hover:bg-indigo-700 hover:text-black hover:scale-[100%] transition transform duration-200 ease-out bg-indigo-900">
                     {/* img section of small card*/}
                     <div className="relative h-20 w-1/2 pl-5 my-2">
+                        <img src='https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg' className="object-contain rounded-lg h-16 my-2 w-16 ml-2 "/>
+                    </div>
+
+                    {/* text section of small card*/}
+                    <div>
+                        <h2>Vue.js</h2>
+                    </div>
+                </div>
+
+                <div className="flex items-center m-2 mt-5 space-x-0 rounded-xl hover:bg-indigo-700 hover:text-black hover:scale-[100%] transition transform duration-200 ease-out bg-indigo-900">
+                    {/* img section of small card*/}
+                    <div className="relative h-20 w-1/2 pl-5 my-2">
                         <img src='https://res.cloudinary.com/dvhcociyf/image/upload/v1642727086/metas/portfolio/tailwindcss-mark.79614a5f61617ba49a0891494521226b_eawmwd.svg' className="object-contain rounded-lg h-16 my-2 w-16 ml-2 "/>
                     </div>
 
@@ -58,12 +70,46 @@ function About() {
                 <div className="flex items-center m-2 mt-5 space-x-0 rounded-xl hover:bg-indigo-700 hover:text-black hover:scale-[100%] transition transform duration-200 ease-out bg-indigo-900">
                     {/* img section of small card*/}
                     <div className="relative h-20 w-1/2 pl-5 my-2">
+                        <img src='https://res.cloudinary.com/dvhcociyf/image/upload/v1655229430/metas/portfolio/gsap-greensock_vcesgx.svg' className="object-contain rounded-lg h-16 my-2 w-16 ml-2 "/>
+                    </div>
+
+                    {/* text section of small card*/}
+                    <div>
+                        <h2>GSAP</h2>
+                    </div>
+                </div>
+
+                <div className="flex items-center m-2 mt-5 space-x-0 rounded-xl hover:bg-indigo-700 hover:text-black hover:scale-[100%] transition transform duration-200 ease-out bg-indigo-900">
+                    {/* img section of small card*/}
+                    <div className="relative h-20 w-1/2 pl-5 my-2">
                         <img src='https://res.cloudinary.com/dvhcociyf/image/upload/v1642727537/metas/portfolio/html5_srxe7s.svg' className="object-contain rounded-lg h-20 "/>
                     </div>
 
                     {/* text section of small card*/}
                     <div >
                         <h2>HTML</h2>
+                    </div>
+                </div>
+                <div className="flex items-center m-2 mt-5 space-x-0 rounded-xl hover:bg-indigo-700 hover:text-black hover:scale-[100%] transition transform duration-200 ease-out bg-indigo-900">
+                    {/* img section of small card*/}
+                    <div className="relative h-20 w-1/2 pl-5 my-2">
+                        <img src='https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg' className="object-contain rounded-lg h-20 "/>
+                    </div>
+
+                    {/* text section of small card*/}
+                    <div >
+                        <h2>CSS</h2>
+                    </div>
+                </div>
+                <div className="flex items-center m-2 mt-5 space-x-0 rounded-xl hover:bg-indigo-700 hover:text-black hover:scale-[100%] transition transform duration-200 ease-out bg-indigo-900">
+                    {/* img section of small card*/}
+                    <div className="relative h-20 w-1/2 pl-5 my-2">
+                        <img src='https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg' className="object-contain rounded-lg h-20 "/>
+                    </div>
+
+                    {/* text section of small card*/}
+                    <div >
+                        <h2>Sass</h2>
                     </div>
                 </div>
                 
