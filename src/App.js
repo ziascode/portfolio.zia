@@ -437,7 +437,6 @@ function SiteHeader() {
     <header className="site-header">
       <div className="site-header-inner">
         <Link className="brand" to="/" onClick={closeMenu} aria-label="Zia Yousaf home">
-          <span className="brand-mark">Z<span>.</span></span>
           <span className="brand-name">Zia Yousaf</span>
         </Link>
         <button
@@ -836,7 +835,6 @@ function AboutPage() {
         <p>I’m a front-end developer and web platform manager based in Toronto.</p>
       </section>
       <ScrollReveal as="section" className="about-bio content-panel">
-        <div className="about-initial" aria-hidden="true">Z<span>.</span></div>
         <div>
           <p>For the past four years I’ve run the website and donation products at Penny Appeal Canada, which raise $7M to $10M online each year. I started there as a front-end developer and now lead a team of seven and three partner agencies.</p>
           <p>I work across the whole job. I find the problem, design the solution in Figma, write the front-end code in React and Next.js, and stay with it through launch until the numbers move. Before Penny Appeal I built virtual reality sales tools at Metaspace VR and websites for small businesses.</p>
@@ -935,7 +933,7 @@ function SiteFooter() {
         <Footer />
       </div>
       <div className="page-width footer-bottom">
-        <Link className="brand" to="/"><span className="brand-mark">Z<span>.</span></span><span className="brand-name">Zia Yousaf</span></Link>
+        <Link className="brand" to="/"><span className="brand-name">Zia Yousaf</span></Link>
         <p>Designed and developed with care · Toronto, Canada</p>
         <a href="#top">Back to top ↑</a>
       </div>

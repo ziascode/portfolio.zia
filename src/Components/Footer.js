@@ -11,7 +11,7 @@ class Footer extends Component {
     audio: new Audio(song),
     audio2: new Audio(night),
     audio3: new Audio(stream),
-    activeSound: null,
+    activeSounds: [],
     audioError: '',
   };
 
@@ -28,21 +28,27 @@ class Footer extends Component {
       stream: this.state.audio3,
     };
     const selectedAudio = sounds[soundName];
+    const isPlaying = this.state.activeSounds.includes(soundName);
 
-    if (this.state.activeSound === soundName) {
+    if (isPlaying) {
       selectedAudio.pause();
-      this.setState({ activeSound: null, audioError: '' });
+      this.setState((state) => ({
+        activeSounds: state.activeSounds.filter((activeSound) => activeSound !== soundName),
+        audioError: '',
+      }));
       return;
     }
 
-    Object.values(sounds).forEach((audio) => audio.pause());
     selectedAudio.loop = true;
-    this.setState({ activeSound: soundName, audioError: '' });
+    this.setState((state) => ({
+      activeSounds: [...state.activeSounds, soundName],
+      audioError: '',
+    }));
 
     selectedAudio.play().catch(() => {
-      this.setState((state) => state.activeSound === soundName
+      this.setState((state) => state.activeSounds.includes(soundName)
         ? {
-          activeSound: null,
+          activeSounds: state.activeSounds.filter((activeSound) => activeSound !== soundName),
           audioError: 'Audio could not be played. Please try again.',
         }
         : null);
@@ -59,7 +65,7 @@ class Footer extends Component {
     return (
       <div className="sound-player">
         {sounds.map((sound) => {
-          const isPlaying = this.state.activeSound === sound.id;
+          const isPlaying = this.state.activeSounds.includes(sound.id);
           return (
             <button
               type="button"

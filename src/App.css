@@ -86,24 +86,6 @@ a:focus-visible {
   letter-spacing: 0.02em;
 }
 
-.brand-mark {
-  display: grid;
-  width: 35px;
-  height: 35px;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid rgba(255, 157, 98, 0.55);
-  border-radius: 50%;
-  color: var(--cream);
-  font-family: var(--site-font);
-  font-size: 18px;
-}
-
-.brand-mark > span,
-.about-initial > span {
-  color: var(--orange);
-}
-
 .primary-navigation {
   display: flex;
   align-items: center;
@@ -1573,27 +1555,13 @@ a:focus-visible {
 
 .about-bio {
   display: grid;
-  grid-template-columns: 180px 1fr;
-  gap: 55px;
+  grid-template-columns: 1fr;
   padding: 37px;
 }
 
 .content-panel {
   border: 1px solid var(--line);
   background: linear-gradient(120deg, rgba(43, 36, 68, 0.84), rgba(29, 25, 47, 0.68));
-}
-
-.about-initial {
-  display: grid;
-  width: 148px;
-  height: 148px;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid rgba(255, 181, 126, 0.45);
-  border-radius: 50%;
-  color: var(--cream);
-  font-family: var(--site-font);
-  font-size: 67px;
 }
 
 .about-bio p {
@@ -1911,12 +1879,6 @@ a:focus-visible {
   gap: 20px;
 }
 
-.footer-bottom .brand-mark {
-  width: 30px;
-  height: 30px;
-  font-size: 15px;
-}
-
 .footer-bottom .brand-name {
   font-size: 11px;
 }
@@ -1985,17 +1947,6 @@ a:focus-visible {
 
   .case-meta-item:last-child {
     border-right: 1px solid var(--line);
-  }
-
-  .about-bio {
-    grid-template-columns: 120px 1fr;
-    gap: 30px;
-  }
-
-  .about-initial {
-    width: 112px;
-    height: 112px;
-    font-size: 52px;
   }
 
   .footer-sound {
@@ -2237,15 +2188,7 @@ a:focus-visible {
   }
 
   .about-bio {
-    grid-template-columns: 1fr;
-    gap: 23px;
     padding: 23px;
-  }
-
-  .about-initial {
-    width: 86px;
-    height: 86px;
-    font-size: 42px;
   }
 
   .principle-row {

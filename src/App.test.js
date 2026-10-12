@@ -10,6 +10,7 @@ beforeEach(() => {
 test('shows the portfolio introduction and featured work', () => {
   render(<App />);
 
+  expect(document.querySelector('.brand-mark')).not.toBeInTheDocument();
   expect(screen.getByRole('heading', { name: /I build and lead web platforms that raise/i })).toBeInTheDocument();
   expect(screen.getByRole('link', { name: /View my work/i })).toHaveAttribute('href', '/work');
   expect(screen.getByRole('heading', { name: 'AutoGive' })).toBeInTheDocument();
@@ -17,6 +18,18 @@ test('shows the portfolio introduction and featured work', () => {
   expect(screen.getAllByText('My role').length).toBeGreaterThan(0);
   expect(screen.getByRole('list', { name: 'AutoGive technology stack' })).toHaveTextContent('Next.js');
   expect(screen.getAllByText('$1.2M raised in the first month').length).toBeGreaterThan(0);
+});
+
+test('allows all soundscapes to play at the same time', () => {
+  render(<App />);
+
+  fireEvent.click(screen.getByRole('button', { name: 'Play Fire' }));
+  fireEvent.click(screen.getByRole('button', { name: 'Play Night ambience' }));
+  fireEvent.click(screen.getByRole('button', { name: 'Play Creek' }));
+
+  expect(screen.getByRole('button', { name: 'Pause Fire' })).toHaveAttribute('aria-pressed', 'true');
+  expect(screen.getByRole('button', { name: 'Pause Night ambience' })).toHaveAttribute('aria-pressed', 'true');
+  expect(screen.getByRole('button', { name: 'Pause Creek' })).toHaveAttribute('aria-pressed', 'true');
 });
 
 test('opens the full work index from the home page', () => {
