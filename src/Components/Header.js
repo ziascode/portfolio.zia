@@ -46,7 +46,6 @@ function Header() {
                 <div className="navModal-content space-y-[8vh] md:space-y-10 flex flex-col text-center justify-center text-white rounded-l-3xl mx-auto w-[70vw] md:w-[20vw] top-[13%] md:top-[25%] h-[80vh] md:h-auto shadow-2xl shadow-zinc-900 font-bold text-5xl md:text-4xl">
                   <a href="#projects"><p className='h-10 hover:text-orange-500 hover:scale-100 transition transform duration-150'>Projects</p></a>
                   <a href="#about"><p className='h-10 hover:text-orange-500 hover:scale-100 transition transform duration-150'>About</p></a>
-                  <a href="#"><p className='h-10 hover:text-orange-500 hover:scale-100 transition transform duration-150'>Resume</p></a>
                   <a href="#contact"><p className='h-10 hover:text-orange-500 hover:scale-100 transition transform duration-150'>Contact</p></a>
                 </div>
                 </div>

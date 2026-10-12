@@ -11,7 +11,6 @@ function About() {
                 <div className='mt-8 space-x-1'>
                 <a href="mailto:ZIAYOUSAF94@GMAIL.COM"><button className='border rounded-lg w-28 py-1 border-teal-700 border-1 hover:border-teal-300 bg-indigo-600 bg-opacity-5'>Email</button></a>
                     <a href="https://www.linkedin.com/in/zia-y/" target="_blank"><button className='border rounded-lg w-28 py-1 border-teal-700 border-1 hover:border-teal-300 bg-indigo-600 bg-opacity-5'>LinkedIn</button></a>
-                    <a href=""><button className='border rounded-lg w-28 py-1 border-teal-700 border-1 hover:border-teal-300 bg-indigo-600 bg-opacity-5'>Resume</button></a>
                 </div>
             </div>
             <img className='hidden md:inline-block inline-block -mt-20' src="https://res.cloudinary.com/dvhcociyf/image/upload/v1642798343/metas/portfolio/vr7_oeesib.png" alt="" />
@@ -22,7 +21,7 @@ function About() {
                 <div className="flex items-center m-2 mt-5 space-x-0 rounded-xl hover:bg-indigo-700 hover:text-black hover:scale-[100%] transition transform duration-200 ease-out bg-indigo-900">
                     {/* img section of small card*/}
                     <div className="relative h-20 w-1/2 pl-5 my-2">
-                        <img src='https://res.cloudinary.com/dvhcociyf/image/upload/v1642725177/metas/portfolio/4373213_js_logo_logos_icon_a6duur.svg' className="object-contain rounded-xl h-20 "/>
+                        <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' alt='JavaScript logo' className="object-contain rounded-xl h-20 " />
                     </div>
 
                     {/* text section of small card*/}
@@ -34,7 +33,7 @@ function About() {
                 <div className="flex items-center m-2 mt-5 space-x-0 rounded-xl hover:bg-indigo-700 hover:text-black hover:scale-[100%] transition transform duration-200 ease-out bg-indigo-900">
                     {/* img section of small card*/}
                     <div className="relative h-20 w-1/2 pl-5 my-2">
-                        <img src='https://res.cloudinary.com/dvhcociyf/image/upload/v1642724867/metas/portfolio/react_hmzfck.svg' className="object-contain rounded-lg h-20 "/>
+                        <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' alt='React logo' className="object-contain rounded-lg h-20 " />
                     </div>
 
                     {/* text section of small card*/}
@@ -46,7 +45,7 @@ function About() {
                 <div className="flex items-center m-2 mt-5 space-x-0 rounded-xl hover:bg-indigo-700 hover:text-black hover:scale-[100%] transition transform duration-200 ease-out bg-indigo-900">
                     {/* img section of small card*/}
                     <div className="relative h-20 w-1/2 pl-5 my-2">
-                        <img src='https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg' className="object-contain rounded-lg h-16 my-2 w-16 ml-2 "/>
+                        <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg' alt='Vue.js logo' className="object-contain rounded-lg h-16 my-2 w-16 ml-2 " />
                     </div>
 
                     {/* text section of small card*/}
@@ -58,7 +57,7 @@ function About() {
                 <div className="flex items-center m-2 mt-5 space-x-0 rounded-xl hover:bg-indigo-700 hover:text-black hover:scale-[100%] transition transform duration-200 ease-out bg-indigo-900">
                     {/* img section of small card*/}
                     <div className="relative h-20 w-1/2 pl-5 my-2">
-                        <img src='https://res.cloudinary.com/dvhcociyf/image/upload/v1642727086/metas/portfolio/tailwindcss-mark.79614a5f61617ba49a0891494521226b_eawmwd.svg' className="object-contain rounded-lg h-16 my-2 w-16 ml-2 "/>
+                        <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg' alt='Tailwind CSS logo' className="object-contain rounded-lg h-16 my-2 w-16 ml-2 " />
                     </div>
 
                     {/* text section of small card*/}
@@ -70,7 +69,7 @@ function About() {
                 <div className="flex items-center m-2 mt-5 space-x-0 rounded-xl hover:bg-indigo-700 hover:text-black hover:scale-[100%] transition transform duration-200 ease-out bg-indigo-900">
                     {/* img section of small card*/}
                     <div className="relative h-20 w-1/2 pl-5 my-2">
-                        <img src='https://res.cloudinary.com/dvhcociyf/image/upload/v1655229430/metas/portfolio/gsap-greensock_vcesgx.svg' className="object-contain rounded-lg h-16 my-2 w-16 ml-2 "/>
+                        <img src='https://www.vectorlogo.zone/logos/greensock/greensock-icon.svg' alt='GSAP logo' className="object-contain rounded-lg h-16 my-2 w-16 ml-2 " />
                     </div>
 
                     {/* text section of small card*/}
@@ -82,7 +81,7 @@ function About() {
                 <div className="flex items-center m-2 mt-5 space-x-0 rounded-xl hover:bg-indigo-700 hover:text-black hover:scale-[100%] transition transform duration-200 ease-out bg-indigo-900">
                     {/* img section of small card*/}
                     <div className="relative h-20 w-1/2 pl-5 my-2">
-                        <img src='https://res.cloudinary.com/dvhcociyf/image/upload/v1642727537/metas/portfolio/html5_srxe7s.svg' className="object-contain rounded-lg h-20 "/>
+                        <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' alt='HTML5 logo' className="object-contain rounded-lg h-20 " />
                     </div>
 
                     {/* text section of small card*/}
@@ -93,7 +92,7 @@ function About() {
                 <div className="flex items-center m-2 mt-5 space-x-0 rounded-xl hover:bg-indigo-700 hover:text-black hover:scale-[100%] transition transform duration-200 ease-out bg-indigo-900">
                     {/* img section of small card*/}
                     <div className="relative h-20 w-1/2 pl-5 my-2">
-                        <img src='https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg' className="object-contain rounded-lg h-20 "/>
+                        <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' alt='CSS3 logo' className="object-contain rounded-lg h-20 " />
                     </div>
 
                     {/* text section of small card*/}
@@ -104,7 +103,7 @@ function About() {
                 <div className="flex items-center m-2 mt-5 space-x-0 rounded-xl hover:bg-indigo-700 hover:text-black hover:scale-[100%] transition transform duration-200 ease-out bg-indigo-900">
                     {/* img section of small card*/}
                     <div className="relative h-20 w-1/2 pl-5 my-2">
-                        <img src='https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg' className="object-contain rounded-lg h-20 "/>
+                        <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg' alt='Sass logo' className="object-contain rounded-lg h-20 " />
                     </div>
 
                     {/* text section of small card*/}
